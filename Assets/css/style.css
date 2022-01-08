@@ -1,0 +1,111 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 4px;
+}
+
+/* Start of the Header section */
+header {
+    padding: 20px 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color:  #ffff;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 38px;
+    text-align: left;
+}
+
+header a {
+    text-decoration: none;
+    color: blue;
+}
+header ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'cursive', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+header nav ul li a:hover {
+    background: yellow;
+    color: red;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+header ul li {
+    display: inline;
+}
+/* End of Header Section */
+
+/* Hero Section */
+.hero {
+    height: 900px;
+    width: auto;
+    margin-bottom: 25px;
+    background-image: url("../images/digitalhand.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* End of Hero Section */
+
+/* Start of the About Me Section */
+.title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 80%;
+    background-color: lightblue;
+  }
+
+.bio p {
+    line-height: 1;
+    color: black;
+    width: 80%;
+    font-size: x-large;
+    margin: 0 auto;
+    text-align: center;
+}
+/* End of About Me Section */
+
+/* Start of Projects Section */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2 {
+    display: inline-block;
+    text-align: center;
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
