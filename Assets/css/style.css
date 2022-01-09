@@ -46,7 +46,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: yellow;
+    background: orange;
     color: red;
     border-radius: 15px;
     text-shadow: none;
@@ -90,22 +90,43 @@ header ul li {
 }
 /* End of About Me Section */
 
-/* Start of Projects Section */
-.container {
+/* Start of Website Section */
+.projects {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.container h2 {
-    display: inline-block;
+.web {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.project > div {
+  margin: 1px;
+  padding: 2px;
+  font-size: 15px;
+  
+}
+
+.project h3 {
     text-align: center;
 }
 
-.container img {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+.project-text {
+ font-size: 25px;
+}
+
+.project-img img {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    align-items: center;
+}
+/* End of the Website Section */
+
+/* Start of the Resume Section */
+.pdf iframe {
+    height: 500px;
+    width: 100%;
+    align-items: center;
 }
