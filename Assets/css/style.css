@@ -177,11 +177,7 @@ header ul li {
 /*Start of the Footer Section */
 footer {
     width: 100%;
-    padding: 30px 25px;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-}
+}    
 
 footer h2 {
     font-size: 20px;
@@ -197,3 +193,75 @@ footer div {
 footer a {
     color: blue;
 }
+
+
+/* MEDIA QUERY FOR 980 screens */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    
+      footer h2, footer div {
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    /* MEDIA QUERY FOR 768 screens */
+    @media screen and (max-width: 768px) {
+        section {
+          padding: 30px 15px;
+        }
+        .project h3 {
+            flex: 1 100%;
+            text-align: center;
+          }
+        
+         .project-img {
+            flex: 0 32%;
+            margin-right: 0;
+            margin-top: 15px;
+            margin-bottom: 15px;
+          }
+        
+          .step-text {
+            flex: 100%;  
+          }
+        
+        }
+
+        /* MEDIA QUERY FOR 575 screens */
+        @media screen and (max-width: 575px) {
+
+          .intro p {
+              width: 100%;
+            }
+          
+            .projects {
+              flex: 0 100%;
+            }
+          
+            .info {
+              text-align: center;
+            }
+          
+            .info > * {
+              flex: 0 100%;
+            }
