@@ -165,25 +165,23 @@ header ul li {
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
 
 /* End of Contact Section */
 
 /*Start of the Footer Section */
 footer {
-    width: 100%;
-}    
+width: 100%;
+}   
 
 footer h4 {
     font-size: 20px;
     margin: 0;
-   
+    color: blue;
 }
 
 footer div {
     line-height: 0.5;
     font-size: 17px;
-}
-
-footer a {
     color: blue;
 }
