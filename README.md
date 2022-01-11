@@ -11,4 +11,4 @@ Git Pages website
 https://dmoloney5.github.io/RUT-Week2-Portfolio/
 
 screenshot of the website
-<img scr="Assets/images/Dennis_Moloney_Portfolio.jpg" alt="My Website Screenshot">
+!['screenshot'](assets/images/Dennis_Moloney_Portfolio.jpg) alt="My Website Screenshot">
